@@ -18,3 +18,12 @@ text_vectorizer.pkl
 train_model.py
 trial_chat.py
 trial_chat_withoutsplit.py
+.env
+gpt2_finetuning.ipynb
+main.py
+preprocessing.py
+preds.csv
+training.log
+wandb
+wandb/latest-run
+hazard-classifier-final

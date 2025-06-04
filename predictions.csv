@@ -1,4 +1,4 @@
-ID,hazard
+ID,predicted_hazard_type
 TEST_1,biological
 TEST_2,biological
 TEST_3,biological
@@ -15,21 +15,21 @@ TEST_13,allergens
 TEST_14,biological
 TEST_15,chemical
 TEST_16,foreign bodies
-TEST_17,allergens
-TEST_18,chemical
+TEST_17,fraud
+TEST_18,packaging defect
 TEST_19,chemical
 TEST_20,biological
 TEST_21,foreign bodies
 TEST_22,allergens
 TEST_23,biological
 TEST_24,foreign bodies
-TEST_25,allergens
+TEST_25,fraud
 TEST_26,allergens
 TEST_27,fraud
-TEST_28,fraud
+TEST_28,biological
 TEST_29,allergens
 TEST_30,foreign bodies
-TEST_31,organoleptic aspects
+TEST_31,biological
 TEST_32,fraud
 TEST_33,allergens
 TEST_34,foreign bodies
@@ -48,13 +48,13 @@ TEST_46,foreign bodies
 TEST_47,allergens
 TEST_48,allergens
 TEST_49,biological
-TEST_50,biological
+TEST_50,chemical
 TEST_51,foreign bodies
 TEST_52,biological
-TEST_53,biological
+TEST_53,foreign bodies
 TEST_54,biological
 TEST_55,biological
-TEST_56,other hazard
+TEST_56,fraud
 TEST_57,biological
 TEST_58,biological
 TEST_59,fraud
@@ -63,7 +63,7 @@ TEST_61,biological
 TEST_62,biological
 TEST_63,foreign bodies
 TEST_64,biological
-TEST_65,fraud
+TEST_65,allergens
 TEST_66,biological
 TEST_67,biological
 TEST_68,biological
@@ -95,7 +95,7 @@ TEST_93,biological
 TEST_94,foreign bodies
 TEST_95,fraud
 TEST_96,allergens
-TEST_97,biological
+TEST_97,allergens
 TEST_98,biological
 TEST_99,allergens
 TEST_100,biological
@@ -109,7 +109,7 @@ TEST_107,biological
 TEST_108,chemical
 TEST_109,chemical
 TEST_110,biological
-TEST_111,biological
+TEST_111,fraud
 TEST_112,allergens
 TEST_113,allergens
 TEST_114,biological
@@ -117,7 +117,7 @@ TEST_115,allergens
 TEST_116,biological
 TEST_117,fraud
 TEST_118,allergens
-TEST_119,fraud
+TEST_119,allergens
 TEST_120,allergens
 TEST_121,allergens
 TEST_122,biological
@@ -176,8 +176,8 @@ TEST_174,biological
 TEST_175,foreign bodies
 TEST_176,biological
 TEST_177,fraud
-TEST_178,fraud
-TEST_179,fraud
+TEST_178,allergens
+TEST_179,chemical
 TEST_180,allergens
 TEST_181,biological
 TEST_182,allergens
@@ -285,7 +285,7 @@ TEST_283,foreign bodies
 TEST_284,allergens
 TEST_285,biological
 TEST_286,biological
-TEST_287,other hazard
+TEST_287,chemical
 TEST_288,biological
 TEST_289,fraud
 TEST_290,allergens
@@ -295,7 +295,7 @@ TEST_293,other hazard
 TEST_294,allergens
 TEST_295,allergens
 TEST_296,foreign bodies
-TEST_297,packaging defect
+TEST_297,chemical
 TEST_298,allergens
 TEST_299,foreign bodies
 TEST_300,foreign bodies
@@ -346,7 +346,7 @@ TEST_344,biological
 TEST_345,biological
 TEST_346,allergens
 TEST_347,allergens
-TEST_348,fraud
+TEST_348,allergens
 TEST_349,biological
 TEST_350,biological
 TEST_351,biological
@@ -364,7 +364,7 @@ TEST_362,biological
 TEST_363,biological
 TEST_364,allergens
 TEST_365,allergens
-TEST_366,foreign bodies
+TEST_366,fraud
 TEST_367,allergens
 TEST_368,biological
 TEST_369,foreign bodies
@@ -376,7 +376,7 @@ TEST_374,allergens
 TEST_375,foreign bodies
 TEST_376,allergens
 TEST_377,foreign bodies
-TEST_378,fraud
+TEST_378,allergens
 TEST_379,allergens
 TEST_380,biological
 TEST_381,foreign bodies
@@ -408,7 +408,7 @@ TEST_406,foreign bodies
 TEST_407,allergens
 TEST_408,foreign bodies
 TEST_409,biological
-TEST_410,other hazard
+TEST_410,fraud
 TEST_411,biological
 TEST_412,fraud
 TEST_413,allergens
@@ -419,7 +419,7 @@ TEST_417,other hazard
 TEST_418,foreign bodies
 TEST_419,allergens
 TEST_420,foreign bodies
-TEST_421,food additives and flavourings
+TEST_421,other hazard
 TEST_422,allergens
 TEST_423,allergens
 TEST_424,biological
@@ -430,7 +430,7 @@ TEST_428,biological
 TEST_429,biological
 TEST_430,allergens
 TEST_431,biological
-TEST_432,organoleptic aspects
+TEST_432,other hazard
 TEST_433,foreign bodies
 TEST_434,fraud
 TEST_435,allergens
@@ -487,7 +487,7 @@ TEST_485,biological
 TEST_486,biological
 TEST_487,allergens
 TEST_488,allergens
-TEST_489,other hazard
+TEST_489,foreign bodies
 TEST_490,allergens
 TEST_491,foreign bodies
 TEST_492,allergens
@@ -519,7 +519,7 @@ TEST_517,biological
 TEST_518,biological
 TEST_519,allergens
 TEST_520,allergens
-TEST_521,other hazard
+TEST_521,biological
 TEST_522,biological
 TEST_523,allergens
 TEST_524,biological
@@ -571,7 +571,7 @@ TEST_569,foreign bodies
 TEST_570,biological
 TEST_571,allergens
 TEST_572,biological
-TEST_573,other hazard
+TEST_573,fraud
 TEST_574,fraud
 TEST_575,biological
 TEST_576,biological
@@ -592,7 +592,7 @@ TEST_590,foreign bodies
 TEST_591,allergens
 TEST_592,allergens
 TEST_593,biological
-TEST_594,organoleptic aspects
+TEST_594,other hazard
 TEST_595,biological
 TEST_596,biological
 TEST_597,allergens
@@ -600,7 +600,7 @@ TEST_598,allergens
 TEST_599,foreign bodies
 TEST_600,other hazard
 TEST_601,allergens
-TEST_602,food additives and flavourings
+TEST_602,other hazard
 TEST_603,biological
 TEST_604,biological
 TEST_605,biological
@@ -620,7 +620,7 @@ TEST_618,allergens
 TEST_619,allergens
 TEST_620,foreign bodies
 TEST_621,allergens
-TEST_622,organoleptic aspects
+TEST_622,chemical
 TEST_623,allergens
 TEST_624,chemical
 TEST_625,foreign bodies
@@ -635,7 +635,7 @@ TEST_633,biological
 TEST_634,biological
 TEST_635,allergens
 TEST_636,allergens
-TEST_637,fraud
+TEST_637,other hazard
 TEST_638,biological
 TEST_639,biological
 TEST_640,biological
@@ -709,7 +709,7 @@ TEST_707,biological
 TEST_708,foreign bodies
 TEST_709,biological
 TEST_710,biological
-TEST_711,organoleptic aspects
+TEST_711,biological
 TEST_712,fraud
 TEST_713,biological
 TEST_714,foreign bodies
@@ -739,7 +739,7 @@ TEST_737,biological
 TEST_738,chemical
 TEST_739,allergens
 TEST_740,allergens
-TEST_741,fraud
+TEST_741,allergens
 TEST_742,allergens
 TEST_743,allergens
 TEST_744,biological
@@ -782,7 +782,7 @@ TEST_780,allergens
 TEST_781,allergens
 TEST_782,fraud
 TEST_783,biological
-TEST_784,biological
+TEST_784,other hazard
 TEST_785,biological
 TEST_786,biological
 TEST_787,allergens
@@ -809,15 +809,15 @@ TEST_807,allergens
 TEST_808,other hazard
 TEST_809,foreign bodies
 TEST_810,biological
-TEST_811,biological
-TEST_812,fraud
+TEST_811,other hazard
+TEST_812,allergens
 TEST_813,biological
 TEST_814,allergens
-TEST_815,allergens
+TEST_815,fraud
 TEST_816,biological
-TEST_817,other hazard
+TEST_817,fraud
 TEST_818,foreign bodies
-TEST_819,other hazard
+TEST_819,foreign bodies
 TEST_820,biological
 TEST_821,allergens
 TEST_822,allergens
@@ -825,7 +825,7 @@ TEST_823,chemical
 TEST_824,chemical
 TEST_825,biological
 TEST_826,allergens
-TEST_827,fraud
+TEST_827,allergens
 TEST_828,chemical
 TEST_829,fraud
 TEST_830,allergens
@@ -840,10 +840,10 @@ TEST_838,allergens
 TEST_839,foreign bodies
 TEST_840,chemical
 TEST_841,allergens
-TEST_842,organoleptic aspects
+TEST_842,other hazard
 TEST_843,biological
 TEST_844,allergens
-TEST_845,packaging defect
+TEST_845,foreign bodies
 TEST_846,allergens
 TEST_847,allergens
 TEST_848,fraud
@@ -871,7 +871,7 @@ TEST_869,allergens
 TEST_870,allergens
 TEST_871,biological
 TEST_872,biological
-TEST_873,biological
+TEST_873,fraud
 TEST_874,allergens
 TEST_875,allergens
 TEST_876,allergens
@@ -944,20 +944,20 @@ TEST_942,allergens
 TEST_943,allergens
 TEST_944,foreign bodies
 TEST_945,organoleptic aspects
-TEST_946,allergens
+TEST_946,chemical
 TEST_947,fraud
 TEST_948,biological
 TEST_949,fraud
 TEST_950,biological
 TEST_951,allergens
 TEST_952,foreign bodies
-TEST_953,other hazard
+TEST_953,fraud
 TEST_954,allergens
 TEST_955,allergens
 TEST_956,biological
 TEST_957,biological
 TEST_958,biological
-TEST_959,allergens
+TEST_959,fraud
 TEST_960,biological
 TEST_961,biological
 TEST_962,other hazard
@@ -972,7 +972,7 @@ TEST_970,allergens
 TEST_971,allergens
 TEST_972,biological
 TEST_973,foreign bodies
-TEST_974,organoleptic aspects
+TEST_974,foreign bodies
 TEST_975,allergens
 TEST_976,biological
 TEST_977,biological
